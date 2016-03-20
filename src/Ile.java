@@ -84,6 +84,9 @@ public class Ile {
 					}
 				}
 			}
+		}   if(this.tableau[1][this.tableau.length-3].getNb()==1 || this.tableau[2][this.tableau.length-2].getNb()==1 || 
+				this.tableau[this.tableau.length-3][1].getNb()==1 || this.tableau[this.tableau.length-2][2].getNb()==1){
+			genererIle();
 		}
 	}
 	
